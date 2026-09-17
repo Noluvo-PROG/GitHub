@@ -1,9 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-         <title>home | Apex Plumbing</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Booking | Apex Plumbing & Drainage Solutions</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
     </head>
     <body>
+        <header>
+            <nav>
+                <div class="logo">Apex Plumbing</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="enquiry.html" class="active">Emergency Booking</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="form-container"></section>
+            <h1>Urgent Emergency Service Booking</h1>
+            <p>Fill out the form below. Our local team responds immediately to critical plumbing failures.</p>
+
+            <!-- Webform for emergency booking -->
+             <form id="emergencyForm" action="#" method="POST" novalidate></form>
+             <div <label for="fullName">Full Name *</label>
+               <input type="text" id="fullName" name="fullName" required>
+                <span class="error-message" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="phoneNumber">South African Phone Number *</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="e.g., 0821234567" required>
+                <span class="error-message" id="phoneError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="issueType">Urgent Plumbing Issue *</label>
+                <select id="issueType" name="issueType" required>
+                   <option value="">-- Select an Option --</option>
+                    <option value="burst-pipe">Burst Pipe / Severe Leak</option>
+                    <option value="blocked-drain">Blocked Main Drainage</option>
+                    <option value="no-hot-water">No Hot Water / Geyser Failure</option>
+                    <option value="other">Other Emergency</option>
+                </select>
+                <span class="error-message" id="issueError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Situation Details / Property Address</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+
+            <button type="submit" id="submitBtn">Request Immediate Dispatch</button>
+            </form>
+            </section>
+
+        </main>
+        <footer>
+            <p>&copy; 2026 Apex Plumbing & Drainage Solutions. All Rights Reserved. www.apexplumbing.co.za</p>
+        </footer>
+        <script src="assets/js/validation.js"></script>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
