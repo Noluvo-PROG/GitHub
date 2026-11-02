@@ -2,9 +2,9 @@
 
 ## Student details
 
-- Name: **[Add your full name]**
-- Student number: **[Add your student number]**
-- Module: **WEDE / Web Development**
+- Name: **Noluvo Mirriam Kupiso**
+- Student number: **ST10498449**
+- Module: **WEDE**
 - Existing project: https://github.com/Noluvo-PROG/GitHub/tree/main/apexplumbing
 
 ## Part 3 update
@@ -15,9 +15,6 @@ The shared stylesheet adapts the layout for narrower screens and includes a mobi
 
 SEO elements include a page-specific title and description, language and viewport metadata, plus `robots.txt` and `sitemap.xml`. The decorative homepage artwork is made with CSS; no external photos or copied code snippets are included.
 
-## Before submission or publishing
-
-This folder is a prepared copy. The GitHub repository itself was not changed. Please add your student details and replace the example email, addresses, service locations and `example.com` sitemap domain with verified information. The business profile is illustrative; confirm all claims with the organisation. Enable a real form backend before accepting bookings. Also add screenshots of desktop, tablet and mobile layouts and include any lecturer feedback and resulting edits.
 
 ## Structure
 
@@ -34,13 +31,13 @@ This folder is a prepared copy. The GitHub repository itself was not changed. Pl
 - Added a contact map, sample two-area links and search engine files.
 - Clearly labelled unverified business and contact details as examples.
 
-## Sources (Harvard style, IIE adapted)
+## Sources 
 
-- Google Search Central (n.d.) *SEO Starter Guide*. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 1 November 2026).
-- Google Search Central (n.d.) *Build and submit a sitemap*. Available at: https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap (Accessed: 1 November 2026).
-- MDN Web Docs (n.d.) *Constraint validation*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation (Accessed: 1 November 2026).
-- MDN Web Docs (n.d.) *Using media queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries (Accessed: 1 November 2026).
-- W3C (2023) *Web Content Accessibility Guidelines (WCAG) 2.2*. Available at: https://www.w3.org/TR/WCAG22/ (Accessed: 1 November 2026).
+- Google Search Central (n.d.) *SEO Starter Guide*. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide 
+- Google Search Central (n.d.) *Build and submit a sitemap*. Available at: https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap 
+- MDN Web Docs (n.d.) *Constraint validation*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation 
+- MDN Web Docs (n.d.) *Using media queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries 
+- W3C (2023) *Web Content Accessibility Guidelines (WCAG) 2.2*. Available at: https://www.w3.org/TR/WCAG22/
 
 ## Viewing the site
 
